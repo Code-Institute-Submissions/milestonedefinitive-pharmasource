@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald');
+
+
+
+h2{
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#f8f9fa;
+
+}
+
+h5{
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#f8f9fa;
+
+}
+
+#logo{
+    float: left; 
+    font-size: 280%;
+    margin-left: 0px;
+    font-family: Lato;
+    color:#0062cc;
+    background-color: #f8f9fa;
+}
+
+.greenlogo{
+color:#28a745;
+
+}
+
+/***************************post navbar */
+
+.p1{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+#hero-image{
+    /**
+    height:745px;
+    width: 100%;
+    **/
+    width: 100%;
+    min-height: 20em;
+    height: auto;
+    background: url("/images/lightblue.jpg") no-repeat center center;
+  
+  /**
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    **/
+
+}
+/*******************************************the cards on main page***/
+.cardtext {
+    
+    color: white;
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background-color: #0655aa;
+
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: .25rem;
+}
+
+.greencardtext{
+    color: #0ee60e;
+}
+
+.cardtexth1{
+    color: white;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/********************************************inside hero images */
+
+/**
+#cover-text, #cover-text h2 {
+    color: rgb(255, 255, 255);
+}
+.green-cover-text-words{
+    color: rgb(12, 236, 12);
+
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 400px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(17, 55, 217, 0.7);
+    bottom: 250px;
+    right: 150px;
+    position: absolute;
+}
+
+#cover-text-left {
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px; 
+    height: 400px;
+    padding-top: 40px; 
+    padding-left: 30px;
+    background-color:rgba(17, 55, 217, 0.7);
+    bottom: 250px;
+    right: 10;
+    position: absolute;
+    left: 150px;
+    padding-right: 30px;
+}
+
+#cover-text-center {
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px; 
+    height: 400px;
+    padding-top: 40px; 
+    padding-left: 30px;
+    background-color:rgba(17, 55, 217, 0.7);
+    bottom: 250px;
+    right: 10;
+    position: absolute;
+    left: 575px;
+    padding-right: 30px;
+}
+
+#cover-text-center-right {
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px; 
+    height: 400px;
+    padding-top: 40px; 
+    padding-left: 30px;
+    background-color:rgba(17, 55, 217, 0.7);
+    bottom: 250px;
+    right: 10;
+    position: absolute;
+    left: 975px;
+    padding-right: 30px;
+}
+
+
+.h3-bubble-left{
+color: rgb(255, 255, 255);
+
+
+}
+
+#welcome{
+font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 40px; 
+    background-color:rgba(17, 54, 217, 0);
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+    left: 650px;
+padding-bottom: 0px;
+}
+
+.trust{
+    color: rgba(17, 55, 217, 0.7);
+}
+**/
+
+
+/***************************************why buy from us section*
+.feel-strong-blue{
+    color: rgba(17, 55, 217, 0.7);
+
+}
+
+.feel-strong{
+    color:#fafafa;
+
+
+}
+
+#club-ethos{
+    height: 600px;
+    background: url("/images/medico.jpg");
+    background-size: 1980px 900px;
+    filter: brightness(100%);
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+
+#right-about{
+    padding-top: 30px;
+    width:33%;
+    float: right;
+}
+
+#center-about{
+    width: 33%;
+    margin:0 auto;
+}
+
+hr{
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+    
+}
+
+.left-about-heading{
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading{
+    width:50%;
+    float:left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2{
+    text-align: right;
+}
+
+
+.right-about-heading p {
+    text-align: right;
+}
+
+
+#welcome{
+    margin: 0px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#circle-container{
+    width: 300px;
+    height: 300px;
+    padding:30px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+
+}
+ 
+#circle-cover-bg{
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+*/
+/******************************************star products carrusel*/
+
+/**
+.carousel-inner  .item  img {
+  width:640px;
+  height:360px;
+}
+**/
+/******************************************table css*/
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #659ed8;
+    border-color: #454d55;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    background-color: #56bd41;
+}
+
+/***********************ethoscsssssssssssssss*/
+
+#club-ethos{
+    height: 600px;
+    background-color: #3188e6;
+}
+
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+
+#right-about{
+    padding-top: 30px;
+    width:33%;
+    float: right;
+}
+
+#center-about{
+    width: 33%;
+    margin:0 auto;
+}
+
+hr{
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+    
+}
+
+
+.left-about-heading{
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading{
+    width:50%;
+    float:left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2{
+    text-align: right;
+}
+
+
+.right-about-heading p {
+    text-align: right;
+}
+
+
+#welcome{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#circle-container{
+    width: 300px;
+    height: 300px;
+    padding:30px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+
+}
+ 
+#circle-cover-bg{
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 943px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-image {
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background: url(../img/form-bg.png) no-repeat;
+
+    }
+
+    #cover-text {
+        left: 0px;
+    }
+    
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto; 
+    }
+
+  
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+    
+    .right-about-heading h2,
+    .left-about-heading h2 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .right-about-heading p,
+    .left-about-heading p {
+        text-align: center;
+        padding: 0 20 0 20;
+    }
+    
+    #photo{
+        column-count:3;
+    }
+    
+    
+    #form-container {
+        left:0;
+    }
+    
+}
+
+
+
+
+/*--------------------------------------------Hover.css*/
+
+
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+/* ----------------------------------------Footer
+
+
+
+
+.footer-details{
+    width: 100%;
+    padding-right: 15px;
+  
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    bottom: 0px;
+}
+
+.h5footer{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
+.inline-block {
+    display: inline-block;
+}
+
+
+footer {
+    background-color: #5285bb;
+    color: #fafafa;
+    min-height: 150px;
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e85410;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
+.inline-block {
+    display: inline-block;
+    text-align: center;
+}
+
+
+/****************************footer*/
+
+.pt-4, .py-4 {
+    padding-top: 1.5rem!important;
+    background-color: #2073d1;
+}
+
+
+
+
+
+
+/********************************gallery*************/
+.pgallery{
+    font-size: x-large;
+    color: #0c54a2;
+}
+.gallerygreen{
+    color: #28a745;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #0e77e9;
+    font-size: x-large;
+    font-family: Lato;
+  font-weight: 900;
+}
+
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*************************************page one!*/
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
