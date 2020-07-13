@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+
+body {
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    background-color: #dcecf9;
+    color: #ffffff;
+}
+.alert-warning {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #212529;
+}
+
+
 h2{margin-top: 0px;
 margin-bottom: 0px;
 }
@@ -19,7 +36,7 @@ h5{
     margin-left: 0px;
     font-family: Lato;
     color:#0062cc;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
 }
 .greenlogo{
 color:#0ee60e;
@@ -30,6 +47,13 @@ color:#0ee60e;
     color: #0d61ba;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0bd42c;
+}
+
+.bg-light {
+    background-color: #ffffff!important;
+}
 
 /***************************post navbar */
 
@@ -172,10 +196,11 @@ color:#0ee60e;
 }
 .carousel .item .btn:hover, .carousel .item .btn:focus {
 	color: #fff;
-	background: #000;
-	border-color: #000;
+	background: #20bc43;
+	border-color:#007bff;
 	box-shadow: none;
 }
+
 .carousel .item .btn i {
 	font-size: 14px;
     font-weight: bold;
@@ -193,6 +218,7 @@ color:#0ee60e;
     background: none;
     margin: auto 0;
     background: rgba(0, 0, 0, 0.2);
+        background: #007bff99;
 }
 .carousel .carousel-control i {
     font-size: 30px;
@@ -430,7 +456,11 @@ hr{
 
 
 /*--------------------------------------------Hover.css*/
-
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0bd42c;
+    border-color:  #0bd42c;
+}
 
 
 .hvr-grow {
