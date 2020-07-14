@@ -65,8 +65,25 @@ color:#0ee60e;
     background-color: #ffffff!important;
 }
 
-/***************************post navbar */
 
+
+
+/***************************post navbar */
+/**************************CALLOUT*********/
+
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+    background: url("/images/doctorhandingpills1.jpg");
+    background-size: cover;
+    min-height: 550px;
+}
+.jumbotron h1 {
+    color: #0c5db4;
+}
+
+/*********************************END OF CALLOUT*/
 .p1{
     color: white;
     font-size: large;
@@ -84,12 +101,7 @@ color:#0ee60e;
     height: auto;
     background: url("/images/medico.jpg") no-repeat center center;
   
-  /**
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    **/
-
+  
 }
 /*******************************************the cards on main page***/
 .cardtext {
@@ -196,16 +208,17 @@ color:#0ee60e;
 	margin: 10px 0;
 }
 .carousel .item .btn {
-	color: rgb(43, 255, 0);
-    border-radius: 0;
+    color: #00ff3a;
     font-size: 11px;
     text-transform: uppercase;
     font-weight: bold;
     background: none;
-    border: 1px solid #ccc;
+    border: 1px solid #00f037;
     padding: 5px 10px;
     margin-top: 5px;
     line-height: 16px;
+    background-color: #2586ef;
+    border-radius: 4px;
 }
 .carousel .item .btn:hover, .carousel .item .btn:focus {
 	color: #fff;
@@ -288,6 +301,12 @@ color:#0ee60e;
 	color: #3188e6;
 }
 
+.fa-star:before {
+    content: "\f005";
+    color: #ffc107;
+}
+
+
 /******************************************table css*/
 
 #tableheader{   
@@ -296,7 +315,7 @@ color:#0ee60e;
 }
 
 .table .thead-dark th {
-    color: #fff;
+    color: #ffffff;
     background-color: #659ed8;
     border-color: #454d55;
 }
@@ -325,7 +344,7 @@ mark {
 
 #club-ethos{
     height: 600px;
-    background-color: #3188e6;
+    background-color:#3188e6;
 }
 
 
