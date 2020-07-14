@@ -7,7 +7,7 @@ body {
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
-    background-color: #dcecf9;
+    background-color:#3d74ae;
     color: #ffffff;
 }
 .alert-warning {
@@ -16,6 +16,7 @@ body {
     border-color: #212529;
 }
 
+a { color: white;}
 
 h2{margin-top: 0px;
 margin-bottom: 0px;
@@ -42,6 +43,15 @@ h5{
 color:#0ee60e;
 
 }
+
+.navbar {
+    position: relative;
+    min-height: 60px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    PADDING-BOTTOM: 0PX;
+}
+
 
 .navbar-light .navbar-nav .nav-link {
     color: #0d61ba;
@@ -72,7 +82,7 @@ color:#0ee60e;
     width: 100%;
     min-height: 20em;
     height: auto;
-    background: url("/images/lightblue.jpg") no-repeat center center;
+    background: url("/images/medico.jpg") no-repeat center center;
   
   /**
     animation-name: hero-zoom;
@@ -137,7 +147,10 @@ color:#0ee60e;
 .h22 b {
 	color: #0ee60e;
 }
-
+.star-rating i {
+    font-size: 14px;
+    color: #ffc107;
+}
 
 .carrussellogo{
     font-family: Lato;
@@ -183,7 +196,7 @@ color:#0ee60e;
 	margin: 10px 0;
 }
 .carousel .item .btn {
-	color: #333;
+	color: rgb(43, 255, 0);
     border-radius: 0;
     font-size: 11px;
     text-transform: uppercase;
@@ -238,11 +251,11 @@ color:#0ee60e;
 	padding: 2px 0;
 }
 .carousel .item-price strike {
-	color: #999;
+	color: rgb(255, 0, 0);
 	margin-right: 5px;
 }
 .carousel .item-price span {
-	color: #86bd57;
+	color: #77ff00;
 	font-size: 110%;
 }
 .carousel .carousel-control.left i {
@@ -292,7 +305,7 @@ color:#0ee60e;
     padding: .75rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6;
-    background-color: #56bd41;
+    background-color: #4e87c4;
 }
 .table {
     width: 100%;
