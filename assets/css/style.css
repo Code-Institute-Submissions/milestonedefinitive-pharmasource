@@ -75,7 +75,7 @@ color:#0ee60e;
 .container .jumbotron, .container-fluid .jumbotron {
     padding-right: 60px;
     padding-left: 60px;
-    background: url("/images/doctorhandingpills1.jpg");
+    background: url("images/doctorhandingpills1.jpg");
     background-size: cover;
     min-height: 550px;
 }
@@ -96,7 +96,7 @@ color:#0ee60e;
     width: 100%;
     min-height: 20em;
     height: auto;
-    background: url("/images/medico.jpg") no-repeat center center;
+    background: url("images/medico.jpg") no-repeat center center;
   
   
 }
@@ -416,7 +416,7 @@ hr{
 }
  
 #circle-cover-bg{
-    background: url("/images/DOC.jpg") no-repeat center center;
+    background: url("images/DOC.jpg") no-repeat center center;
     height:100%;
     border-radius: 50%;
 }
